@@ -1,0 +1,6 @@
+{
+  "name": "ResQ-Mesh Emergency Disaster Locator",
+  "description": "Offline-first decentralized P2P disaster communications and family locator with multi-hop relay, tactical mapping, and safe-zone geofencing.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

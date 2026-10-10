@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production builds
+build/
+dist/
+coverage/
+
+# Environment variables
+.env*
+!.env.example
+
+# Large model weights, archives & raw GIS data (Exceed GitHub 100MB limit)
+*.gguf
+*.pbf
+*.osm.pbf
+planetiler.jar
+*.zip
+
+# System & editor files
+.DS_Store
+*.log
+.vscode/
+.idea/
